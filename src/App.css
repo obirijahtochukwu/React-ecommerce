@@ -1,0 +1,108 @@
+body {
+ background-color: lavender;
+ font-family: sans-serif;
+}
+
+h1, h2, h3, h4, p {
+ font-weight: 600;
+}
+p {
+ letter-spacing: 0.1rem;
+}
+
+.underline {
+ height: 0.3rem;
+ width: 100px;
+ margin-left: 1rem;
+ background-color: orangered;
+}
+
+/* carousel */
+.help {
+ background-color: white;
+ margin-top: 1rem;
+ border-radius: 10px;
+ height: 100%;
+}
+.help span {
+ font-size: 2rem;
+ padding-right: 1rem;
+}
+.help div {
+ margin: 1rem;
+ padding: 0.2rem;
+ display: inline-block;
+ display: flex;
+ align-items: center;
+}
+.help h4 {
+ color: darkslateblue;
+ padding-right: 5px !important;
+}
+
+/* Subheading */
+.subheading div {
+ display: flex;
+ align-items: center;
+ background-color: white;
+}
+.subheading img {
+ width: 20%;
+ margin: 1rem;
+}
+.subheading h5 {
+ font-size: 1.4rem;
+ display: inline-block;
+ text-transform: capitalize;
+ font-family: 'Courier New', Courier, monospace;
+}
+
+/* TopSellingItem */
+.top {
+ background-color: white;
+ border-radius: 5px;
+ display: block;
+}
+.card {
+ border: transparent;
+ transition: all 0.5s ease-in-out;
+ margin: 1rem;
+ 
+}
+.card:hover {
+ transform: scale(1.04);
+}
+.card h5,p {
+ display: inline-block;
+ padding: 0.5rem;
+}
+.per {
+ position: absolute;
+ top: 0rem;
+ right: 0rem;
+}
+.per p {
+ color: midnightblue !important;
+ padding: 0.1rem;
+ background: linear-gradient(rgb(255,165,00,0.9),rgb(255,165,00,0.9));
+ border-radius: 0 0 0 5px;
+}
+
+/* details */
+.btn-1 {
+ padding: 0.5rem;
+ border: 0.08rem solid orange;
+ border-radius: 10px;
+ font-weight: 900;
+ color: orange;
+ transition: all 1s ease-in-out;
+}
+.btn-1:hover {
+ background-color: orange;
+ color: white;
+}
+
+/* Empty Cart */
+.empty {
+ padding-top: 26vh;
+}
