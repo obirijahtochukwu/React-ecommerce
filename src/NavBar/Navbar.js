@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaBars,FaCartPlus, FaJoomla } from 'react-icons/fa';
+import { FaBars,FaCartPlus} from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { useGlobalContext } from '../context';
 
