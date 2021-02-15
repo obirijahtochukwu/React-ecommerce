@@ -1,7 +1,7 @@
 import React from 'react';
 import { useGlobalContext } from "../../context";
 import CartColumns from './CartColumns';
-import CartList from './CartList';
+import CartList from './CartList'; 
 import CartTotal from './CartTotal';
 import EmptyCart from './EmptyCart';
 
