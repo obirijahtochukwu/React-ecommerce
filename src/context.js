@@ -8,6 +8,7 @@ const AppProvider = ({ children }) => {
 
   const [count,setCount] = useState(topItems);
 
+  // eslint-disable-next-line
   const [items,setItems] = useState(topItems);
   const [detailProduct,setDetailProduct] = useState(topItems);
   const [cart,setCart] = useState([]);
