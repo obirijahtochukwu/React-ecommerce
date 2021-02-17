@@ -25,8 +25,8 @@ const Item = ({items, handleDetail}) => {
        }}>
          <Link to='/details'>
           <img src={img} className='w-100' alt=""/>
-          <h5 className='title'>{title}</h5>
-          <p>{price}</p>
+          <h5>{title}</h5>
+          <p>${price}</p>
           <div className="per">
           <p className='text-italic'>{per}%</p>
           </div>

@@ -2,7 +2,7 @@ const topItems = [
   {
     id: 1,
     img: './img/1-6.jpg',
-    title: 'Lorem ipsum dolor sit.',
+    title: 'lorem ipsum',
     price: 170,
     per: -10,
     company: "GOOGLE",
@@ -15,7 +15,7 @@ const topItems = [
   {
     id: 2,
     img: './img/1-8.jpg',
-    title: 'Lorem ipsum dolor sit.',
+    title: 'lorem ipsum',
     price: 145,
     per: -26,
     company: "GOOGLE",
@@ -28,7 +28,7 @@ const topItems = [
   {
     id: 3,
     img: './img/1-3.jpg',
-    title: 'Lorem ipsum dolor sit.',
+    title: 'lorem ipsum',
     price: 430,
     per: -18,company: "GOOGLE",
     info:
@@ -40,7 +40,7 @@ const topItems = [
   {
     id: 4,
     img: './img/1-7.jpg',
-    title: 'Lorem ipsum dolor sit.',
+    title: 'lorem ipsum',
     price: 230,
     per: -47,
     company: "GOOGLE",
@@ -53,7 +53,7 @@ const topItems = [
   {
     id: 5,
     img: './img/1-12.jpg',
-    title: 'Lorem ipsum dolor sit.',
+    title: 'lorem ipsum',
     price: 540,
     per: -34,
     company: "GOOGLE",
@@ -66,7 +66,7 @@ const topItems = [
   {
     id: 6,
     img: './img/1-2.jpg',
-    title: 'Lorem ipsum dolor sit.',
+    title: 'lorem ipsum',
     price: 110,
     per: -5,
     company: "GOOGLE",
@@ -79,7 +79,7 @@ const topItems = [
   {
     id: 7,
     img: './img/1-9.jpg',
-    title: 'Lorem ipsum dolor sit.',
+    title: 'lorem ipsum',
     price: 540,
     per: -23,
     company: "GOOGLE",
@@ -92,7 +92,7 @@ const topItems = [
   {
     id: 8,
     img: './img/1-13.jpg',
-    title: 'Lorem ipsum dolor sit.',
+    title: 'lorem ipsum',
     price: 110,
     per: -33,
     company: "GOOGLE",
