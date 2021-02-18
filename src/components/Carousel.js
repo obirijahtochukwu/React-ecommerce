@@ -27,19 +27,19 @@ export default function Carousel() {
         <div className="help">
          <div>
           <span><FaQuestionCircle className='text-warning text-bold'/></span>
-          <h4> customer's care</h4>
+           customer's care
          </div>
          <div>
           <span>
            <FaShippingFast className='text-primary'/>
           </span>
-          <h4> sell on jumia</h4>
+          sell on jumia
          </div>
          <div>
           <span>
            <FaPaypal className='text-primary'/>
           </span>
-          <h4> easy return of fund</h4>
+          easy transaction
          </div>
         </div>
       </div>

@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function CartTotal() {
+export default function Footer() {
  return (
   <div>
-   <p></p>
+   
   </div>
  )
 }

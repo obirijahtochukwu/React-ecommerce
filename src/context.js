@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react';
 import sublinks from './data';
-import topItems from './data2';
+import {topItems} from './data2';
 
 const AppContext = React.createContext();
 
@@ -72,9 +72,25 @@ const AppProvider = ({ children }) => {
   }
 
   const removeItem = (id) =>{
-    const pro = cart.filter((item)=>item.id !== id);
-    setCart(pro); 
-  }
+    {/*let tempCart = [...cart];
+    tempCart = tempCart.filter((item)=>item.id !== id);
+    let removed = tempCart(id);
+    removed.inCart = false;
+    setCart(removed);*/}
+  let tempProducts = [...items];
+  let tempCart = [...cart];
+
+  tempCart = tempCart.filter(item => item.id !== id);
+
+  const index = tempProducts.indexOf(getItem(id));
+  let removedProduct = tempProducts[index];
+  removedProduct.inCart = false;
+  removedProduct.count = 0;
+  removedProduct.inCart = 0;
+  setCart(tempCart);
+  setItems(tempProducts);
+
+  };
 
   return (
     <AppContext.Provider

@@ -25,14 +25,12 @@ const Detail = ({detailProduct,addToCart }) =>{
      <h3 className="text-capitalize">product: {title}</h3>
      <h3 className="text-capitalize text-muted">company: {company}</h3>
      <p className='font-weight-bold text-dark'>{info}</p>
-     <div className="btn2">
       <Link to='/'>
        <button className="btn-1 text-capitalize">back to products</button>
       </Link>
-       <button className="btn-1 text-capitalize ml-3" onClick={()=>addToCart(id)}> 
+      <button className="btn-1 text-capitalize ml-3" onClick={()=>addToCart(id)} disabled={inCart ? true: false}> 
         {inCart? 'in cart':'add to cart'}
-       </button>
-     </div>
+      </button>
     </div>
    </div>
   </div>

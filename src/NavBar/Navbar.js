@@ -34,7 +34,7 @@ const Navbar = () => {
         </div>
         <ul className='nav-links1'>
           <li>
-            <button className='link-btn1' onMouseOver={displaySubmenu}>
+            <button className='link-btn1' onMouseOver={displaySubmenu} onMouseOut=''>
               products
             </button>
           </li>
@@ -50,7 +50,7 @@ const Navbar = () => {
           </li>
         </ul>
         <Link to='./cart'>
-          <button className="btn1 signin-btn"><FaCartPlus/>my cart
+          <button className="btn3 signin-btn px-2 py-1"><FaCartPlus className='fap'/> my cart
           </button>
         </Link>
       </div>

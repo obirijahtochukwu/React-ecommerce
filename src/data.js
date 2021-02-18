@@ -4,9 +4,9 @@ const sublinks = [
   {
     page: 'products',
     links: [
-      { label: 'payment', icon: <FaCreditCard />, to: '/products' },
-      { label: 'terminal', icon: <FaCreditCard />, to: '/products' },
-      { label: 'connect', icon: <FaCreditCard />, to: '/products' },
+      { label: 'phone accessories', icon: <FaCreditCard />, to: '/phone accessories' },
+      { label: 'sporting goods', icon: <FaCreditCard />, to: '/sports-goods' },
+      { label: 'shoes and canvas', icon: <FaCreditCard />, to: '/shoe-products' },
     ],
   },
   {
@@ -21,7 +21,7 @@ const sublinks = [
   {
     page: 'login',
     links: [
-      { label: 'sign in', icon: <FaUser />, to: '/products' },
+      { label: 'sign in', icon: <FaUser />, to: '/signin' },
       { label: 'create account', icon: <FaAddressBook />, to: '/produ' },
     ],
   },
