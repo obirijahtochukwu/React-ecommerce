@@ -72,6 +72,7 @@ const AppProvider = ({ children }) => {
   }
 
   const removeItem = (id) =>{
+    // eslint-disable-next-line
     {/*let tempCart = [...cart];
     tempCart = tempCart.filter((item)=>item.id !== id);
     let removed = tempCart(id);
