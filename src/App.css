@@ -124,7 +124,7 @@ p {
 
 /* Empty Cart */
 .empty {
- padding-top: 26vh;
+ padding-top: 15vh;
 }
 
 /* sign in */
@@ -154,5 +154,31 @@ input:hover {
  border: transparent;
  border-radius: 4px;
  color: white;
+ text-transform: capitalize;
+}
+
+/* footer */
+footer {
+ background-color: rgb(0, 0, 0, 0.8);
+ color: white;
+ margin-top: 2rem;
+ margin-bottom: 0;
+}
+footer h1 {
+ color: orange;
+ font-family: cursive;
+}
+.btn-outline-white {
+ color: orange;
+ border: 0.06rem solid orange;
+ font-weight: bolder;
+ transition: all 0.5s ease-in;
+}
+.btn-outline-white:hover {
+ background-color: orange;
+ color: white;
+}
+.download {
+ margin-top: 2rem;
  text-transform: capitalize;
 }
