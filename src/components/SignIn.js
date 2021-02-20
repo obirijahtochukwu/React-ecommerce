@@ -4,6 +4,7 @@ import { FaEnvelope, FaFacebookSquare } from 'react-icons/fa'
 export default function SignIn() {
  return (
   <>
+  <main className="sign">
    <h3 className="uppercase text-muted text-center mt-5"><i>login</i></h3>
    <div className="container">
     <div className="row">
@@ -23,6 +24,7 @@ export default function SignIn() {
      </div>
     </div>
    </div>
+  </main>
   </>
  )
 }

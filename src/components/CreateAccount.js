@@ -4,6 +4,7 @@ import { FaFacebookSquare } from 'react-icons/fa'
 export default function CreateAccount() {
  return (
   <>
+  <main className="sign">
    <h3 className="uppercase text-muted text-center mt-5"><i>create account</i></h3>
    <div className="container">
     <div className="row">
@@ -25,6 +26,7 @@ export default function CreateAccount() {
      </div>
     </div>
    </div>
+  </main>
   </>
  )
 }

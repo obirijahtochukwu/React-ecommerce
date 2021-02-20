@@ -128,6 +128,14 @@ p {
 }
 
 /* sign in */
+.sign {
+ background-color: white;
+ padding: 3rem;
+ margin: 3rem;
+ border: 0.05rem solid darkblue;
+ border-radius: 8px;
+ box-shadow: 0.01rem 0.01rem 1rem 1rem gray;
+}
 input {
  border: transparent;
  border-bottom: 0.1rem solid orange;
@@ -136,7 +144,7 @@ input {
  transition: all 0.5s ease-in;
  padding: 0.3rem;
 }
-input:hover {
+input:focus {
  background-color: orange;
  color: white;
 }
