@@ -130,11 +130,9 @@ p {
 /* sign in */
 .sign {
  background-color: white;
- padding: 3rem;
  margin: 3rem;
- border: 0.05rem solid darkblue;
  border-radius: 8px;
- box-shadow: 0.01rem 0.01rem 1rem 1rem gray;
+ box-shadow: 0.05rem 0.05rem 0.3rem 0.3rem gray;
 }
 input {
  border: transparent;

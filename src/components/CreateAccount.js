@@ -5,7 +5,7 @@ export default function CreateAccount() {
  return (
   <>
   <main className="sign">
-   <h3 className="uppercase text-muted text-center mt-5"><i>create account</i></h3>
+   <h3 className="uppercase text-muted text-center mt-5 p-4"><i>create account</i></h3>
    <div className="container">
     <div className="row">
      <div className="col-10 mx-auto col-md-7">
@@ -20,7 +20,7 @@ export default function CreateAccount() {
        <input type="text"/>
        <button type='submit' className='btn btn-outline-warning mt-2 font-weight-bold'>submit</button>
       </form>
-      <button className="btn5 mt-4 p-1">
+      <button className="btn5 mt-4 p-1 mb-3">
        <span className="float-left pl-1"><FaFacebookSquare/></span> <span className="text-center">login with facebook</span>
       </button>
      </div>
